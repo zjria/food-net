@@ -46,6 +46,7 @@ body {
 .footer-text-area h1 {
     font-size: 50px;
     font-weight: 700;
+    color: #575757;
 }
 
 .footer-text-area span {
@@ -54,6 +55,7 @@ body {
 
 .footer-text-area p {
     font-size: 30px;
+    color: #828282;
 }
 
 .footer-text-area .order-button {
