@@ -1,1 +1,101 @@
-body {}
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+/* header-section Start */
+.header-section {}
+
+.header-section ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.header-section ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.header-section ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.header-section ul li a:hover {
+    color: coral;
+    transition: 0.5s;
+}
+
+/* header-section End */
+
+/* footer-area section Start */
+
+.footer-area {
+    margin-top: 40px;
+    display: flex;
+}
+
+.footer-text-area {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.footer-text-area h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.footer-text-area span {
+    color: #fb934a;
+}
+
+.footer-text-area p {
+    font-size: 30px;
+}
+
+.footer-text-area .order-button {
+    text-decoration: none;
+    font-size: 15px;
+    background-image: linear-gradient(#fb8c47, #fd4e31);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.footer-text-area .footer-img-area {
+    width: 50%;
+}
+
+.footer-img-area img {
+    width: 70%;
+    margin-left: 20%;
+}
+
+/* footer-area section End */
+
+/* About-Me-area section Start */
+.about-me {
+    display: flex;
+    background-image: url(images/shep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.flexble-area {}
+
+.about-me-img-area {
+    width: 100%;
+}
+
+.about-me-img-area img {
+    width: 40%;
+    margin-left: 10%;
+}
+
+/* About-Me-area section End */
